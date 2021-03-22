@@ -1,0 +1,16 @@
+#apollo:
+#  meta: http://10.6.0.83:8080
+#  bootstrap:
+#    enabled: true
+#    namespaces: application,datasource
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6390
+    password: 123456
+    lettuce:
+      pool:
+        max-active: 10
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0

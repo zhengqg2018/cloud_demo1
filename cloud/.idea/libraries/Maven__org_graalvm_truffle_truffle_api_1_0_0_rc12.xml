@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.graalvm.truffle:truffle-api:1.0.0-rc12">
+    <CLASSES>
+      <root url="jar://D:/tools/Repository/org/graalvm/truffle/truffle-api/1.0.0-rc12/truffle-api-1.0.0-rc12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/tools/Repository/org/graalvm/truffle/truffle-api/1.0.0-rc12/truffle-api-1.0.0-rc12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/tools/Repository/org/graalvm/truffle/truffle-api/1.0.0-rc12/truffle-api-1.0.0-rc12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+server:
+  port: 8802
+app:
+  id: consumer_one
+spring:
+  profiles:
+    active: dev
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8810
+

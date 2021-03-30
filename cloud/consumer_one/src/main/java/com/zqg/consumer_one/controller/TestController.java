@@ -36,8 +36,11 @@ public class TestController {
 
     private static volatile Integer TOTAL = 10;
 
-    @Value("${datasource.name:aa}")
+    //@Value("${datasource.name:aa}")
     private String dataSourceName;
+
+    @Value("${name}")
+    private String infoName;
 
     @GetMapping("/echo/{str}")
     public String test(@PathVariable("str") String string){
@@ -63,6 +66,11 @@ public class TestController {
         log.info("{}", value);*/
 
         return key.toString();
+    }
+    @GetMapping("/infoName")
+    public String getInfoName(){
+        log.info(".............");
+        return "";
     }
 
 }

@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
  * @author zqg
  * @date 2020/7/9 17:22
  */
-@EnableApolloConfig
+//@EnableApolloConfig
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients

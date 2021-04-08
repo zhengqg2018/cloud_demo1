@@ -20,7 +20,6 @@ import org.springframework.web.client.RestTemplate;
  */
 //@EnableApolloConfig
 @SpringBootApplication
-@EnableDiscoveryClient
 @EnableFeignClients
 public class ConsumerOneApplication {
     public static void main(String[] args) {
